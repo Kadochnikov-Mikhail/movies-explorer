@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  background: #fdfdfd;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
+}
+
+.card__desc {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 18px 0;
+}
+
+.card__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000;
+}
+
+.card__duration {
+  margin: 0 18px 14px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #a0a0a0;
+}
+
+.card__img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px 6px 0 0;
+}
+
+.card__button {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  border: none;
+  border-radius: 30px;
+  background-color: #fff;
+  background-image: url('../../images/unsaved1.svg');
+}
+
+.card__button:hover {
+  opacity: 0.8;
+}
+
+.card__button_saved {
+  background-image: url('../../images/saved.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card__button_unsaved {
+  background-image: url('../../images/unsaved.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card__button_saved::before {
+  content: '';
+}

@@ -1,0 +1,23 @@
+.saved-movies {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+  min-height: 100vh;
+}
+
+.saved-movies__top {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+}
+
+.saved-movies__empty {
+  margin: 70px 0 0;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}

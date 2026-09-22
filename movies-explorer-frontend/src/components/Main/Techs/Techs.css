@@ -1,0 +1,129 @@
+.techs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 100px 70px;
+  width: calc(100% - 140px);
+}
+
+.techs__title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #000000;
+  margin: 90px 0 25px;
+  width: 100%;
+  max-width: 1140px;
+}
+
+.techs__paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #000000;
+  margin: 0 0 100px;
+  max-width: 460px;
+}
+
+.techs__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1140px;
+}
+
+.techs__item {
+  background: #e8e8e8;
+  border-radius: 10px;
+  width: 90px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #000000;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.techs__item:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .techs {
+    padding: 100px 50px;
+    width: calc(100% - 100px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .techs {
+    padding: 90px 50px;
+  }
+
+  .techs__title {
+    margin-top: 80px;
+    margin-bottom: 22px;
+  }
+
+  .techs__paragraph {
+    line-height: 16px;
+    margin-bottom: 83px;
+  }
+
+  .techs__item {
+    width: 84px;
+    height: 57px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .techs {
+    padding: 70px 18px;
+    width: calc(100% - 36px);
+    background-color: #fff;
+  }
+
+  .techs__title {
+    font-size: 36px;
+    line-height: 30px;
+    margin-top: 80px;
+    margin-bottom: 24px;
+  }
+
+  .techs__paragraph {
+    font-size: 11px;
+    line-height: 16px;
+    margin-bottom: 50px;
+    max-width: 292px;
+  }
+
+  .techs__list {
+    display: grid;
+    grid-template-columns: repeat(2, 84px);
+    gap: 10px;
+    width: auto;
+    height: auto;
+  }
+
+  .techs__item {
+    width: 84px;
+    height: 57px;
+    margin: 0;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

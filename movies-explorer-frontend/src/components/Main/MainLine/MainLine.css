@@ -1,0 +1,31 @@
+.main-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom: 1px solid #000;
+  margin: 0 70px;
+  max-width: 1140px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-line__text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  color: #000;
+  margin: 0 0 23px;
+}
+
+@media screen and (max-width: 767px) {
+  .main-line {
+    margin: 0 18px;
+  }
+
+  .main-line__text {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 28px;
+  }
+}

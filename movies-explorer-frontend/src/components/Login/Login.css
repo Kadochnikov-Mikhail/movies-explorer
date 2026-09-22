@@ -1,0 +1,161 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 396px;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #a0a0a0;
+}
+
+.login__greeting {
+  margin: 40px 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000;
+}
+
+.login__form-field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.login__input {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #f9f9f9;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000;
+}
+
+.login__error-validation {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  visibility: hidden;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ff4062;
+}
+
+.login__error-validation_show {
+  visibility: visible;
+}
+
+.login__button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 3px;
+  background: #3456f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #fff;
+}
+
+.login__button:hover {
+  opacity: 0.8;
+}
+
+.login__button_disabled {
+  background: #f8f8f8;
+  color: #c2c2c2;
+  pointer-events: none;
+  user-select: none;
+}
+
+.login__caption {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-top: 16px;
+}
+
+.login__caption-text {
+  margin: 0 6px 0 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #a0a0a0;
+}
+
+.login__caption-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3456f3;
+  text-decoration: none;
+}
+
+.login__caption-link:hover {
+  opacity: 0.7;
+}
+
+.login__error {
+  visibility: hidden;
+  margin-top: 124px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #ff004c;
+}
+
+.login__error_show {
+  visibility: visible;
+}
+
+@media screen and (max-width: 767px) {
+  .login__container {
+    width: 260px;
+    align-items: center;
+  }
+
+  .login__greeting {
+    margin: 50px 0 80px;
+  }
+
+  .login__caption-text,
+  .login__caption-link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .login__caption-text {
+    margin-right: 7px;
+  }
+
+  .login__caption-link {
+    margin-right: 7px;
+  }
+}

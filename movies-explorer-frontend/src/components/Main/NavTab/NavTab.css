@@ -1,0 +1,6 @@
+.nav-tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 70px 75px 25px;
+}

@@ -1,0 +1,13 @@
+.server-error {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.server-error__text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+}

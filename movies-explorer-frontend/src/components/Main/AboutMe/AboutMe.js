@@ -22,7 +22,7 @@ function AboutMe() {
 
           <div className="about-me__links">
             <a
-              href="https://github.com/KadochnikovMikhail"
+              href="https://github.com/Kadochnikov-Mikhail"
               target="_blank"
               rel="noreferrer"
               className="about-me__link"

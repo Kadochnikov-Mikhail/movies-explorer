@@ -23,7 +23,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://github.com/KadochnikovMikhail"
+            href="https://github.com/Kadochnikov-Mikhail"
             target="_blank"
             rel="noreferrer"
             className="footer__link"
@@ -32,7 +32,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://facebook.com/"
+            href=" "
             target="_blank"
             rel="noreferrer"
             className="footer__link"
